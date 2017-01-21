@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "e37d56bfc663c83c0203de1ef8c97576",
+    "content-hash": "4d5f6ff3e70c2a4e8c563c9cd6ecb235",
+    "packages": [
+        {
+            "name": "zomberg/phpquery",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zomberg/phpquery.git",
+                "reference": "2a2bdb5d0225f03735fa917bc816fdb5a3f72600"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zomberg/phpquery/zipball/2a2bdb5d0225f03735fa917bc816fdb5a3f72600",
+                "reference": "2a2bdb5d0225f03735fa917bc816fdb5a3f72600",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "phpQuery/"
+                ]
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tobiasz Cudnik",
+                    "email": "tobiasz.cudnik@gmail.com",
+                    "homepage": "https://github.com/TobiaszCudnik",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Vyacheslav Pavlov",
+                    "homepage": "https://github.com/zomberg",
+                    "role": "Packager"
+                }
+            ],
+            "description": "phpQuery is a server-side, chainable, CSS3 selector driven Document Object Model (DOM) API based on jQuery JavaScript Library",
+            "homepage": "http://code.google.com/p/phpquery/",
+            "keywords": [
+                "lib",
+                "phpQuery"
+            ],
+            "support": {
+                "source": "https://github.com/zomberg/phpquery/tree/master"
+            },
+            "time": "2013-12-09 10:15:19"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
