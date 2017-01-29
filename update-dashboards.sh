@@ -33,7 +33,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 declare -a FIVE_MINUTELY=(bsag.php)
 declare -a DAILY=(entsorgung.php)
 declare -a HOURLY=(mensa.php)
-declare -a MINUTELY=()
+declare -a MINUTELY=(fhem-temperature.php)
 
 # Directory with scripts
 DASHBOARDS_DIRECTORY='/opt/dashboard-scripts'
