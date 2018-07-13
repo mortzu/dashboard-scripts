@@ -61,6 +61,9 @@ curl_close($ch);
 
 $json_decode = json_decode($output, true);
 
+if (!is_array($json_decode) || !isset($json_decode['Results']))
+  exit(1);
+
 foreach ($json_decode['Results'] as $devices)
   foreach ($devices['devices'] as $device)
     if ($device['TYPE'] == 'TechemHKV')

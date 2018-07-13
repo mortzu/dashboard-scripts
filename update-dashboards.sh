@@ -30,13 +30,15 @@
 # Set path to defaults
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
-declare -a FIVE_MINUTELY=(bsag.php)
-declare -a DAILY=(entsorgung.php)
+. /etc/profile.d/php_version.sh
+
+declare -a FIVE_MINUTELY=()
+declare -a DAILY=()
 declare -a HOURLY=(mensa.php)
 declare -a MINUTELY=(fhem-temperature.php)
 
 # Directory with scripts
-DASHBOARDS_DIRECTORY='/opt/dashboard-scripts'
+DASHBOARDS_DIRECTORY='/home/mortzu-dashboard/.opt/dashboard-scripts'
 
 # Change to directory
 cd "$DASHBOARDS_DIRECTORY"
