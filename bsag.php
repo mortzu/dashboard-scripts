@@ -44,7 +44,7 @@ else {
 $dashing_widget_name = 'bsag';
 
 $bsag = new BSAGModule;
-$bsag_result = $bsag->get_data('Bremen Schleiermacherstraße');
+$bsag_result = $bsag->get_data($bsag_start);
 
 // Initialize items array
 $content = array();

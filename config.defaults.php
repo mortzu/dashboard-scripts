@@ -6,6 +6,8 @@ $dashing_api_username = '';
 $dashing_api_password = '';
 $dashing_api_auth_token = '';
 
+$bsag_start = '';
+
 $fhem_url = '';
 $fhem_username = '';
 $fhem_password = '';
