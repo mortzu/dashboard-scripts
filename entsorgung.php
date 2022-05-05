@@ -41,17 +41,13 @@ else {
 
 $dashing_widget_name = 'entsorgung';
 
-// Location to get rubbish plan for
-$location_street = 'Friedrich-Ebert-Straße';
-$location_number = '216';
-
 // Initialize items array
 $content = array();
 $content['auth_token'] = $dashing_api_auth_token;
 $content['items'] = array();
 
 // Get plan
-$source = file_get_contents('http://213.168.213.236/bremereb/bify/bify.jsp?strasse=' . rawurlencode(utf8_decode($location_street)) . '&hausnummer=' . rawurlencode(utf8_decode($location_number)));
+$source = file_get_contents('http://213.168.213.236/bremereb/bify/bify.jsp?strasse=' . rawurlencode(utf8_decode($entsorgung_street)) . '&hausnummer=' . rawurlencode(utf8_decode($entsorgung_number)));
 
 // Split
 preg_match_all("|<b>.* ([0-9]{4,})</b>|", $source, $jahre);

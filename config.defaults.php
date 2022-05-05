@@ -8,6 +8,9 @@ $dashing_api_auth_token = '';
 
 $bsag_start = '';
 
+$entsorgung_street = '';
+$entsorgung_number = '';
+
 $fhem_url = '';
 $fhem_username = '';
 $fhem_password = '';
